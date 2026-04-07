@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+    .container
+    {
+        width: 100%;
+        height: 100%;
+        /* background-color: rgb(211, 231, 238); */
+    }
+    .nav
+    {
+         background-color: #c59a9f;
+        width: 100%;
+        height: 10%;
+        /* background-color: lightgray; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul 
+    {
+       
+        height: 100%;
+        display: flex;
+      align-items: center;
+        justify-content: end;
+        gap: 30px;
+    }
+
+    a{
+        font-size: 1.3rem;
+        font-family: cursive;
+        color: #fbfbfb;
+
+    }
+
+.contact-us
+{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.brand
+{
+    color: #e6f53f;
+    font-family: cursive;
+}
+.brand-logo
+{
+    width: 80%;
+}
+
+.btn-contact
+{
+    padding: 5px 15px;
+    border-radius: 10px;
+    /* background-color: transparent; */
+    background-color: rgb(247, 248, 248);
+    border: none;
+    color: #b37a81;
+    a{
+        color: #c59da2;
+        /* background-color: darkcyan; */
+    }
+}
+
+
+
+</style>
+<body>
+    
+
+    <div class="container">
+        <div class="nav">
+            <div class="brand">
+               <img src="logo.png" alt=""  class="brand-logo">
+            </div>
+
+            <ul>
+                <li><a href="https://www.google.com/">Google</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+               
+            </ul>
+
+            <button class="btn-contact">
+                <li><a href="#contact">Contact</a></li>
+            </button>
+
+
+        </div>
+    </div>
+
+
+    <div class="contact-us" id="contact">
+        <h1 style="text-align: center;">Contact</h1>
+    </div>
+
+</body>
+</html>

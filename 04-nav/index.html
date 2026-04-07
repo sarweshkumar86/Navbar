@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navbar Design</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #d3d3d3;
+    }
+
+    /* Navbar */
+    .navbar {
+      width: 100%;
+      background-color: #bfbfbf;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+    }
+
+    /* Logo */
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .logo span {
+      color: orange;
+    }
+
+    /* Menu */
+    .menu {
+      display: flex;
+      gap: 40px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact Button */
+    .contact-btn {
+      padding: 8px 18px;
+      border: 1px solid #888;
+      border-radius: 8px;
+      background-color: #e6e6e6;
+      cursor: pointer;
+    }
+
+    .contact-btn:hover {
+      background-color: #dcdcdc;
+    }
+
+    /* Empty Section */
+    .content {
+      height: 500px;
+      background-color: #d3d3d3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    
+    <!-- Logo -->
+    <div class="logo">
+      🏠 N<span>E</span>T
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Gallary</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Button -->
+    <button class="contact-btn">Contact</button>
+
+  </div>
+
+  <div class="content"></div>
+
+</body>
+</html>
